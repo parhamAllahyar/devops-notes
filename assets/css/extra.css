@@ -1,0 +1,31 @@
+.md-grid {
+  max-width: 95%;
+}
+
+.md-main__inner {
+  margin: 0 auto;
+}
+
+.md-sidebar--primary {
+  width: 14rem;
+}
+
+.md-sidebar--secondary {
+  width: 12rem;
+}
+
+.md-content {
+  max-width: none;
+}
+
+.md-content__inner {
+  max-width: none;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+@media screen and (min-width: 1220px) {
+  .md-grid {
+    max-width: 96%;
+  }
+}
