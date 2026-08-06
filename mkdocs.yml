@@ -1,0 +1,90 @@
+site_name: DevOps Notes
+site_description: Linux, Kubernetes, GitLab and Database Documentation
+
+site_url: https://github.com/parhamAllahyar/devops-notes
+repo_url: https://github.com/parhamAllahyar/devops-notes
+repo_name: parhamAllahyar/devops-notes
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  #logo: assets/images/logo.svg
+  #favicon: assets/images/favicon.png
+
+  features:
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+
+    - toc.follow
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+  - toc:
+      permalink: true
+
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - assets/css/extra.css
+nav:
+  - Home: index.md
+
+  - Linux:
+      - Overview: linux/index.md
