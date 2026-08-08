@@ -1,0 +1,101 @@
+{
+    "listen": "",
+    "port": 443,
+    "protocol": "vless",
+    "tag": "in-443-tcp",
+    "settings": {
+        "clients": [
+            {
+                "id": "86ebdc15-99f2-4616-858e-432cd5882b84",
+                "email": "ofuiwxj4t4",
+                "flow": "xtls-rprx-vision",
+                "limitIp": 0,
+                "totalGB": 0,
+                "expiryTime": 0,
+                "enable": true,
+                "tgId": 0,
+                "subId": "87sotjt1wylclu2j",
+                "comment": "parham",
+                "reset": 0,
+                "created_at": 1786176637105,
+                "updated_at": 1786176637000
+            },
+            {
+                "id": "392fa624-f7cf-46c0-8286-bbaa24dd7ecb",
+                "email": "d4ompqlbok",
+                "flow": "xtls-rprx-vision",
+                "limitIp": 0,
+                "totalGB": 0,
+                "expiryTime": 0,
+                "enable": true,
+                "tgId": 0,
+                "subId": "pbb3lkmeqvcncnzc",
+                "comment": "ramin",
+                "reset": 0,
+                "created_at": 1786176745840,
+                "updated_at": 1786176745000
+            }
+        ],
+        "decryption": "none",
+        "encryption": "none",
+        "testseed": [
+            900,
+            500,
+            900,
+            256
+        ]
+    },
+    "sniffing": {
+        "enabled": false
+    },
+    "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+            "acceptProxyProtocol": false,
+            "header": {
+                "type": "none"
+            }
+        },
+        "security": "reality",
+        "realitySettings": {
+            "show": false,
+            "xver": 0,
+            "target": "google.com:443",
+            "serverNames": [
+                "google.com"
+            ],
+            "privateKey": "EA9ifAQBI5ddrUzShL-S3CA6vuK6knKDOINTFguu4Vg",
+            "minClientVer": "1.0.0",
+            "maxClientVer": "",
+            "maxTimediff": 0,
+            "shortIds": [
+                "4d1ff9f9",
+                "933721",
+                "f04c",
+                "0189dea1c84e",
+                "b41beccac22fd3e5",
+                "4f",
+                "2b2b45c13132b0",
+                "7ffe0782ef"
+            ],
+            "mldsa65Seed": "",
+            "limitFallbackUpload": {
+                "afterBytes": 0,
+                "bytesPerSec": 0,
+                "burstBytesPerSec": 0
+            },
+            "limitFallbackDownload": {
+                "afterBytes": 0,
+                "bytesPerSec": 0,
+                "burstBytesPerSec": 0
+            },
+            "settings": {
+                "publicKey": "RBYNc5cHYkHK2nvfLXqckoSRScOBi0o0CUv14eNhuyQ",
+                "fingerprint": "chrome",
+                "serverName": "",
+                "spiderX": "/cgZMcyzzTOV1I2e",
+                "mldsa65Verify": ""
+            }
+        }
+    }
+}
